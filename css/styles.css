@@ -33,6 +33,8 @@ ul {
   text-decoration: none;
 }
 
+/* Стили главной страницы */
+
 /* Header */
 
 .page-header {
@@ -75,12 +77,13 @@ ul {
   color: var(--primary-background-color);
 }
 
-.button {
+.button.primary {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
 
 /* Section */
+
 .section-title {
   color: var(--secondary-text-color);
 }
@@ -88,6 +91,7 @@ ul {
 .section-item .title {
   color: var(--secondary-text-color);
 }
+
 /* Team  */
 
 .team {
@@ -103,6 +107,7 @@ ul {
 }
 
 /* Футер */
+
 .footer {
   background-color: var(--footer-background-color);
 }
@@ -114,6 +119,26 @@ ul {
 .location .link {
   color: var(--primary-background-color);
 }
+
 .contact .link {
   color: var(--contacts-text-color);
+}
+
+/* Стили Портфолио */
+
+/* Buttons */
+.button.secondary {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+.section-item .text {
+  color: var(--primary-text-color);
 }
