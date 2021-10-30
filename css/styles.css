@@ -188,11 +188,11 @@ body {
 
 /* Section */
 
-.section-feature .link {
+.section-project .link {
   text-decoration: none;
 }
 
-.section-feature .title {
+.section-project .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -200,7 +200,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.section-feature .text {
+.section-project .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
