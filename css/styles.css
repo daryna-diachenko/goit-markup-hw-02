@@ -1,14 +1,3 @@
-/* font-family: Raleway;
-font-weight: 700;
-font-family: Roboto;
-font-weight: 500;
-font-weight: 900;
-font-weight: 700;
-font-weight: 400;
-letter-spacing: 0.03em;
-letter-spacing: 0.02em;
-letter-spacing: 0.06em;
-*/
 :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
@@ -54,9 +43,6 @@ body {
 }
 
 .nav .link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--logo-text-color);
 }
@@ -70,6 +56,9 @@ body {
 }
 
 .nav-contacts .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
 }
@@ -89,10 +78,20 @@ body {
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-background-color);
 }
 
-.button.primary {
+.button.main {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
@@ -100,11 +99,23 @@ body {
 /* Section */
 
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
 .section-item .title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
+}
+
+.section-item .text {
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 /* Team  */
@@ -118,7 +129,18 @@ body {
 }
 
 .team-card .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   color: var(--secondary-text-color);
+}
+
+.team-card .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /* Футер */
@@ -132,6 +154,12 @@ body {
   color: var(--primary-background-color);
 }
 
+.contacts .link {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+}
+
 .location .link {
   color: var(--primary-background-color);
 }
@@ -143,21 +171,38 @@ body {
 /* Стили Портфолио */
 
 /* Buttons */
-.button.secondary {
+
+.button.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   color: var(--secondary-text-color);
   background-color: var(--secondary-background-color);
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.button.filter:hover,
+.button.filter:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
 
 /* Section */
-.section-item .link {
+
+.section-feature .link {
   text-decoration: none;
 }
-.section-item .text {
+
+.section-feature .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.section-feature .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
   color: var(--primary-text-color);
 }
